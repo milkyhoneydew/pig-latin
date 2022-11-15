@@ -34,6 +34,26 @@ function pigLatin(text) {
   } 
 }
 
- 
-
-
+// function pigLatin(word) {
+//   let firstLetter = word.charAt(0);
+//   if (letterType(firstLetter) === "vowel") {
+//     let temp = "";
+//     temp = word + "way";
+//     return temp;
+//   } else if (letterType(firstLetter) === "q") {
+//     let temp = "";
+//     temp = word.slice(2) + word.slice(0, 2) + "ay";
+//     return temp;
+//   } else if (letterType(firstLetter) === "consonant") {
+//     let constCounter = 0;
+//     for (i = 0; i < word.length; i++) {
+//       if (letterType(word.charAt(i)) === "consonant") {
+//       } else {
+//         constCounter = i;
+//         break;
+//       }
+//     }
+//     let temp = "";
+//     temp = word.slice(constCounter) + word.slice(0, constCounter) + "ay";
+//     return temp;
+//   }
